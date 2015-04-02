@@ -213,8 +213,35 @@ footer p{
 	margin-bottom: 30px;
 }
 
-
-
+/******************************* GRAFIX.HTML ************************************************/
+/*paras in page*/
+#grafix p{
+	font-size: 1.2em;
+}
+/*main article container*/
+#gMain{
+	margin-top: 70px;
+}
+/*examples section*/
+#gEx{
+	margin-top: 100px;
+}
+/*ex rows*/
+#gEx .row{
+	margin-top: 100px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #3C3F36;
+}
+/*headers in example section*/
+#gEx h3{
+	background: #3C3F36;
+	color: #FEFFFF;
+	padding: 10px;
+}
+/*paragraphs and headers in example section*/
+#gEx p, #gEx h3{
+	margin-bottom: 30px;
+}
 
 
 
