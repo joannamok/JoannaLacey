@@ -278,3 +278,42 @@ footer p{
 	margin-bottom: 30px;
 }
 
+/**************************ABOUT.ME**************************************************************************/
+/*main section*/
+#aboutMain{
+	margin-top: 30px;
+}
+/*page paragraphs*/
+#aboutPage p{
+	font-size: 1.3em;
+}
+/*page p, heading btn*/
+#aboutPage p,#aboutPage h1,#aboutPage h3,#aboutPage .btn{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
