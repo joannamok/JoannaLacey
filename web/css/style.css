@@ -247,7 +247,34 @@ footer p{
 	margin-bottom: 30px;
 }
 
-
-
-
+/************************************SOCAIL MARKETING.HTML*****************************************/
+/*paras in page*/
+#smPage p{
+	font-size: 1.2em;
+}
+/*main article container*/
+#smMain{
+	margin-top: 70px;
+}
+/*examples section*/
+#smEx{
+	margin-top: 100px;
+}
+/*ex section title*/
+#smEx h1{
+	font-size: 4em;
+	background: #9FB03E;
+	color: #FEFFFF;
+	padding: 7px;
+}
+/*ex rows*/
+#smEx .row{
+	margin-top: 100px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #9FB03E;
+}
+/*paragraphs and headers in example section*/
+#smEx p, #smEx h3{
+	margin-bottom: 30px;
+}
 
