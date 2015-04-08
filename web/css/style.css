@@ -105,6 +105,10 @@ footer p{
 #main h2{
 	color: #9FB03E;
 }
+/*main image*/
+#frontImg{
+	border: 5px solid #72918B;
+}
 /*main image container inside accordion 1 slide*/
 #accImg1{
 	margin-top: 30px;
