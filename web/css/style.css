@@ -35,6 +35,9 @@ a{
 .btn-default{
 	background: #72918B;
 	color:#FEFFFF;
+	-webkit-box-shadow: 10px 10px 12px -7px rgba(43,52,61,0.36);
+	-moz-box-shadow: 10px 10px 12px -7px rgba(43,52,61,0.36);
+	box-shadow: 10px 10px 12px -7px rgba(43,52,61,0.36);
 }
 /*buttons default hover*/
 .btn-default:hover{
@@ -266,6 +269,15 @@ footer p{
 	background: #9FB03E;
 	color: #FEFFFF;
 	padding: 7px;
+}
+/*default buttons*/
+#smPage .btn-default{
+	background: #9FB03E; 
+}
+/*default buttons*/
+#smPage .btn-default:hover{
+	background: #72918B; 
+	color:#FEFFFF;
 }
 /*ex rows*/
 #smEx .row{
