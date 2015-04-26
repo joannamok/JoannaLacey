@@ -1,6 +1,7 @@
 /*white: #FEFFFF*/
 /*blue : #72918B*/
 /*green : #9FB03E*/
+/*orange : #FF6138*/
 /*dark green: #3C3F36*/
 
 /************** MAIN STYLES **************************/
@@ -76,7 +77,7 @@ footer{
 }
 /*third accordion tab*/
 #headingThree{
-	background: #3C3F36;
+	background: #FF6138;
 }
 /*footer section*/
 footer{
@@ -127,15 +128,15 @@ footer p{
 }
 /*button in Grafix Acc tab*/
 #gm .btn-default{
-	background: #3C3F36;
+	background: #FF6138;
 }
 /*button in Grafix Acc tab on hover*/
 #gm .btn-default:hover{
-	background: #9FB03E;
+	background: #FF6138;
 }
 /*grahics media  acc title*/
 #gm h2{
-	color: #3C3F36;
+	color: #FF6138;
 }
 
 /****************WEBDESIGN.HTML**********************************************/
@@ -190,6 +191,16 @@ footer p{
 }
 
 /****************Media.HTML**********************************************/
+#mmMain h2{
+	background: #FF6138;
+	color: #FEFFFF;
+	border-radius: 30px 130px 30px 130px;
+	-moz-border-radius: 30px 130px 30px 130px;
+	-webkit-border-radius: 30px 130px 30px 130px;
+	padding:3%;
+	margin-bottom: 30px;
+	padding-left: 8%;
+}
 /*paragraph for for this page*/
 #med p{
 	font-size: 1.2em;
@@ -201,8 +212,7 @@ footer p{
 /*ex section title*/
 #med h1{
 	font-size: 4em;
-	background: #3C3F36;
-	color: #FEFFFF;
+	color: #FF6138;
 	padding: 7px;
 }
 /*examples section*/
@@ -217,7 +227,7 @@ footer p{
 }
 /*headers in example section*/
 #mmEx h3{
-	background: #3C3F36;
+	background: #FF6138;
 	color: #FEFFFF;
 	padding: 10px;
 }
@@ -234,10 +244,23 @@ footer p{
 /*main article container*/
 #gMain{
 	margin-top: 70px;
+	border-bottom: 1px solid #FF6138;
+	padding-bottom: 70px;
+}
+/*main header*/
+#gMain h2{
+	background: #FF6138;
+	color: #FEFFFF;
+	border-radius: 30px 130px 30px 130px;
+	-moz-border-radius: 30px 130px 30px 130px;
+	-webkit-border-radius: 30px 130px 30px 130px;
+	padding:3%;
+	margin-bottom: 30px;
+	
 }
 /*main image*/
 #gMain img{
-	margin-top: 30px;
+	margin-top: 60px;
 }
 /*examples section*/
 #gEx{
@@ -247,13 +270,13 @@ footer p{
 #gEx .row{
 	margin-top: 100px;
 	padding-bottom: 30px;
-	border-bottom: 3px solid #3C3F36;
+	border-bottom: 3px solid #FF6138;
 }
 /*headers in example section*/
 #gEx h3{
-	background: #3C3F36;
-	color: #FEFFFF;
+	color: #FF6138;
 	padding: 10px;
+	font-size: 2em;
 }
 /*paragraphs and headers in example section*/
 #gEx p, #gEx h3{
@@ -269,6 +292,28 @@ footer p{
 #smMain{
 	margin-top: 70px;
 }
+/*sm main header*/
+#smMain h2 {
+	background: #9FB03E;
+	color:#FEFFFF;
+	border-radius: 30px 130px 30px 130px;
+	-moz-border-radius: 30px 130px 30px 130px;
+	-webkit-border-radius: 30px 130px 30px 130px;
+	padding:3%;
+	margin-bottom: 30px;
+}
+/*main image */
+#smImgBox img{
+	margin-top:30px;
+}
+/*main p*/
+#smMain p{
+	margin-top: 70px;
+}
+/*2nd image in main article*/
+#main2img{
+	margin-top: 30px;
+}
 /*examples section*/
 #smEx{
 	margin-top: 100px;
@@ -276,8 +321,7 @@ footer p{
 /*ex section title*/
 #smEx h1{
 	font-size: 4em;
-	background: #9FB03E;
-	color: #FEFFFF;
+	color: #9FB03E;
 	padding: 7px;
 }
 /*default buttons*/
@@ -326,22 +370,82 @@ footer p{
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		/*SOCIAL MEDIA PAGE*/
 		
+		/*default buttons*/
+		#smPage .btn-default{
+			margin: 30px 0 70px 0; 
+		}
+		/*image container in social media main article*/
+		#smImgBox{
+			margin: 70px 0 70px 0;
+			padding: 50px;
+			background: #9FB03E;
+			border-radius: 44px 200px 51px 187px;
+			-moz-border-radius: 44px 200px 51px 187px;
+			-webkit-border-radius: 44px 200px 51px 187px;
+			border: 0px solid #000000;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		
+		/*SOCIAL MEDIA PAGE*/
+
+		/*default buttons*/
+		#smPage .btn-default{
+			margin: 30px 0 70px 0; 
+		}
+		/*image container in social media main article*/
+		#smImgBox{
+			margin: 70px 0 70px 0;
+			padding: 50px;
+			background: #9FB03E;
+			border-radius: 44px 200px 51px 187px;
+			-moz-border-radius: 44px 200px 51px 187px;
+			-webkit-border-radius: 44px 200px 51px 187px;
+			border: 0px solid #000000;
+		}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		/*SOCIAL MEDIA PAGE*/
 		
+		/*default buttons*/
+		#smPage .btn-default{
+			margin: 30px 0 70px 0; 
+		}
+		/*image container in social media main article*/
+		#smImgBox{
+			margin: 70px 0 70px 0;
+			padding: 50px;
+			background: #9FB03E;
+			border-radius: 44px 200px 51px 187px;
+			-moz-border-radius: 44px 200px 51px 187px;
+			-webkit-border-radius: 44px 200px 51px 187px;
+			border: 0px solid #000000;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+		/*SOCIAL MEDIA PAGE*/
 		
+		/*default buttons*/
+		#smPage .btn-default{
+			margin: 30px 0 70px 0; 
+		}
+		/*image container in social media main article*/
+		#smImgBox{
+			margin: 70px 0 70px 0;
+			padding: 50px;
+			background: #9FB03E;
+			border-radius: 44px 200px 51px 187px;
+			-moz-border-radius: 44px 200px 51px 187px;
+			-webkit-border-radius: 44px 200px 51px 187px;
+			border: 0px solid #000000;
+		}
 	}
 
 
