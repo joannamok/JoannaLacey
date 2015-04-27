@@ -284,6 +284,10 @@ footer p{
 }
 
 /************************************SOCAIL MARKETING.HTML*****************************************/
+/*image carousel*/
+#carousel-example-generic{
+	margin: 70px 0 70px 0;
+}
 /*paras in page*/
 #smPage p{
 	font-size: 1.2em;
