@@ -1,0 +1,2 @@
+/*calling carasel*/
+$('.carousel').carousel();
