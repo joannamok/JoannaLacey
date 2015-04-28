@@ -237,6 +237,10 @@ footer p{
 }
 
 /******************************* GRAFIX.HTML ************************************************/
+/*image carousel*/
+#carousel-example-generic{
+	margin: 30px 0 70px 0;
+}
 /*paras in page*/
 #grafix p{
 	font-size: 1.2em;
@@ -249,18 +253,15 @@ footer p{
 }
 /*main header*/
 #gMain h2{
-	background: #FF6138;
-	color: #FEFFFF;
-	border-radius: 30px 130px 30px 130px;
-	-moz-border-radius: 30px 130px 30px 130px;
-	-webkit-border-radius: 30px 130px 30px 130px;
-	padding:3%;
+	font-size: 3em;
+	color: #FF6138;
 	margin-bottom: 30px;
 	
 }
 /*main image*/
 #gMain img{
-	margin-top: 60px;
+	margin-top: 100px;
+	padding-left: 17%;
 }
 /*examples section*/
 #gEx{
@@ -284,10 +285,6 @@ footer p{
 }
 
 /************************************SOCAIL MARKETING.HTML*****************************************/
-/*image carousel*/
-#carousel-example-generic{
-	margin: 70px 0 70px 0;
-}
 /*paras in page*/
 #smPage p{
 	font-size: 1.2em;
