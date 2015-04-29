@@ -306,6 +306,7 @@ footer p{
 }
 /*main header*/
 #gMain h2{
+	color: #FF6138;
 	font-size: 3em;
 	margin-bottom: 30px;
 }
