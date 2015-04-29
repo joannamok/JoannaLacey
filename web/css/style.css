@@ -29,6 +29,15 @@ h3,h4,h5{
 	font-family: 'Inconsolata';
 	letter-spacing: 1px;
 }
+/*h5 tags*/
+h3{
+	font-size: 2em;
+}
+/*parageaph fone for this page*/
+p{
+	font-size: 1.2em;
+	letter-spacing: 1.2px;
+}
 /*main paragraph text*/
 main p{
 	font-size: 1em;
@@ -45,6 +54,7 @@ a{
 	-webkit-box-shadow: 10px 10px 12px -7px rgba(43,52,61,0.36);
 	-moz-box-shadow: 10px 10px 12px -7px rgba(43,52,61,0.36);
 	box-shadow: 10px 10px 12px -7px rgba(43,52,61,0.36);
+	border: none;
 }
 /*buttons default hover*/
 .btn-default:hover{
@@ -143,19 +153,34 @@ footer p{
 /*parageaph fone for this page*/
 #web p{
 	font-size: 1.2em;
+	letter-spacing: 1.2px;
 }
 /*main article*/
 #webMain{
 	margin-top: 70px;
 } 
+/*web main title*/
+#webMain h2{
+	font-size: 3em;
+	margin-bottom: 70px;
+}
+/*web main blockquote*/
+#webMain blockquote{
+	font-size: 1.5em;
+	letter-spacing: 1.5px;
+	margin-top:15px;
+	color: #72918B;
+}
 /*main article img*/
 #webMain img{
 	padding: 3px;
-	margin: 10px;
+	margin-top: 30px;
 }
 /*example sites section*/
 #exPage{
 	margin-top: 100px;
+	background: #72918B;
+	padding: 10%;
 }
 /*rows in section of ex sites*/
 #exPage .row{
@@ -166,16 +191,56 @@ footer p{
 /*ex section title*/
 #exPage h1{
 	font-size: 4em;
-	background: #72918B;
-	color: #FEFFFF;
-	padding: 7px;
+	color: #FEFFFF;/* #72918B*/
+	clear: all;
+}
+/*exPage p container*/
+#exPage .img-circle{
+	background: #FEFFFF;
+	padding: 2%;
+}
+/*p an header in ex section*/
+#exPage p, #exPage h3{
+	padding: 6%;
 }
 /*subitles of ex section*/
 #exPage h3{
-	color: #72918B;
+	color: #9FB03E;
+	text-align: center;
+}
+/*expage buttons*/
+#exPage .btn-default{
+	background: #9FB03E;
+}
+/*images in example section*/
+#exPage img{
+	padding-left: 20%;
+	margin-top: 70px;
 }
 #exPage .row h3, #exPage .row p, #exPage .row .btn{
 	margin-bottom: 30px;
+}
+/*js framework section*/
+#jsSec{
+}
+/*js framework section header*/
+#jsSec h2{
+	text-align: center;
+	font-size: 3em;
+	color:#9FB03E;
+}
+/*js framework section sub header*/
+#jsSec h4{
+	text-align: center;
+	font-size: 2em;
+	padding: 6%;
+	font-weight: bold;
+}
+#jsSec img{
+	margin-top: 70px;
+}
+#jsSec p{
+	padding: 10%;
 }
 /*last articles ection*/
 #lastArt{
@@ -192,14 +257,8 @@ footer p{
 
 /****************Media.HTML**********************************************/
 #mmMain h2{
-	background: #FF6138;
-	color: #FEFFFF;
-	border-radius: 30px 130px 30px 130px;
-	-moz-border-radius: 30px 130px 30px 130px;
-	-webkit-border-radius: 30px 130px 30px 130px;
-	padding:3%;
-	margin-bottom: 30px;
-	padding-left: 8%;
+	font-size: 3em;
+	color: #FF6138;
 }
 /*paragraph for for this page*/
 #med p{
@@ -295,17 +354,13 @@ footer p{
 }
 /*sm main header*/
 #smMain h2 {
-	background: #9FB03E;
-	color:#FEFFFF;
-	border-radius: 30px 130px 30px 130px;
-	-moz-border-radius: 30px 130px 30px 130px;
-	-webkit-border-radius: 30px 130px 30px 130px;
-	padding:3%;
+	font-size: 3em;
+	color:#9FB03E;
 	margin-bottom: 30px;
 }
 /*main image */
 #smImgBox img{
-	margin-top:30px;
+	margin-top:70px;
 }
 /*main p*/
 #smMain p{
