@@ -182,12 +182,6 @@ footer p{
 	background: #72918B;
 	padding: 10%;
 }
-/*rows in section of ex sites*/
-#exPage .row{
-	margin-top: 100px;
-	padding-bottom: 30px;
-	border-bottom: 3px solid #72918B;
-}
 /*ex section title*/
 #exPage h1{
 	font-size: 4em;
@@ -198,6 +192,7 @@ footer p{
 #exPage .img-circle{
 	background: #FEFFFF;
 	padding: 2%;
+	margin: 30px 0 30px 0;
 }
 /*p an header in ex section*/
 #exPage p, #exPage h3{
@@ -307,15 +302,11 @@ footer p{
 /*main article container*/
 #gMain{
 	margin-top: 70px;
-	border-bottom: 1px solid #FF6138;
-	padding-bottom: 70px;
 }
 /*main header*/
 #gMain h2{
 	font-size: 3em;
-	color: #FF6138;
-	margin-bottom: 30px;
-	
+	margin-bottom: 30px;	
 }
 /*main image*/
 #gMain img{
@@ -325,16 +316,12 @@ footer p{
 /*examples section*/
 #gEx{
 	margin-top: 100px;
-}
-/*ex rows*/
-#gEx .row{
-	margin-top: 100px;
-	padding-bottom: 30px;
-	border-bottom: 3px solid #FF6138;
+	background: #FF6138;
+	padding: 10%;
 }
 /*headers in example section*/
 #gEx h3{
-	color: #FF6138;
+	color:#FEFFFF;
 	padding: 10px;
 	font-size: 2em;
 }
