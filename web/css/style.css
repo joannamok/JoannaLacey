@@ -218,6 +218,11 @@ footer p{
 }
 /*js framework section*/
 #jsSec{
+	background: #FEFFFF;
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+	padding: 30px;
 }
 /*js framework section header*/
 #jsSec h2{
@@ -264,26 +269,35 @@ footer p{
 #mmMain{
 	margin-top: 70px;
 }
+/*main article container*/
+#mmMain img{
+	margin-top: 100px;
+}
 /*ex section title*/
 #med h1{
 	font-size: 4em;
-	color: #FF6138;
+	color: #FEFFFF;
 	padding: 7px;
 }
 /*examples section*/
 #mmEx{
 	margin-top: 100px;
+	background: #FF6138;
+	padding: 50px; 
 }
 /*examples rows*/
 #mmEx .row{
 	margin-top: 100px;
 	padding-bottom: 30px;
-	border-bottom: 3px solid #3C3F36;
+	background: #FEFFFF;
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+	padding: 50px;
 }
 /*headers in example section*/
 #mmEx h3{
-	background: #FF6138;
-	color: #FEFFFF;
+	color: #FF6138;
 	padding: 10px;
 }
 /*paragraphs and headers in example section*/
@@ -324,8 +338,11 @@ footer p{
 /*example rows*/
 #gEx .row{
 	background:#FEFFFF;
-	margin: 30px; 
+	margin: 30px 70px 70px 70px; 
 	padding:50px;
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
 }
 /*example rows*/
 #gEx .row p{
