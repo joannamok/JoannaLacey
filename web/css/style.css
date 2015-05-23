@@ -193,7 +193,7 @@ footer p{
 #exPage .img-circle{
 	background: #FEFFFF;
 	padding: 2%;
-	margin: 30px 0 30px 0;
+	margin: 100px 0 30px 0;
 }
 /*p an header in ex section*/
 #exPage p, #exPage h3{
@@ -211,7 +211,10 @@ footer p{
 /*images in example section*/
 #exPage img{
 	padding-left: 20%;
-	margin-top: 70px;
+	margin-top: 170px;
+}
+#exPage .row{
+	margin-bottom: 200px;
 }
 #exPage .row h3, #exPage .row p, #exPage .row .btn{
 	margin-bottom: 30px;
@@ -502,7 +505,13 @@ footer p{
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		/*GRAPHIC DESIGN PAGE*/
+		/***************************WEBDESIGN PAGE***********?
+		/*images in example section*/
+		#exPage img{
+			padding-left: 20%;
+			margin-top: 70px;
+		}
+		/***********GRAPHIC DESIGN PAGE**************/
 		/*example rows*/
 		#gEx .row{
 			background:#FEFFFF;
@@ -539,7 +548,13 @@ footer p{
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		/*GRAPHIC DESIGN PAGE*/
+		/***************************WEBDESIGN PAGE***********?
+		/*images in example section*/
+		#exPage img{
+			padding-left: 20%;
+			margin-top: 70px;
+		}
+		/************GRAPHIC DESIGN PAGE******************/
 		/*example rows*/
 		#gEx .row{
 			background:#FEFFFF;
@@ -576,7 +591,15 @@ footer p{
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		/*GRAPHIC DESIGN PAGE*/
+		/***************************WEBDESIGN PAGE***********?
+		/*images in example section*/
+		#exPage img{
+			padding-left: 20%;
+			margin-top: 70px;
+		}
+
+
+		/**************GRAPHIC DESIGN PAGE*****************/
 		/*example rows*/
 		#gEx .row{
 			background:#FEFFFF;
