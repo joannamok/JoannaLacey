@@ -214,7 +214,7 @@ footer p{
 	margin-top: 170px;
 }
 #exPage .row{
-	margin-bottom: 200px;
+	margin-bottom: 150px;
 }
 #exPage .row h3, #exPage .row p, #exPage .row .btn{
 	margin-bottom: 30px;
@@ -399,11 +399,13 @@ footer p{
 /*examples section*/
 #smEx{
 	margin-top: 100px;
+	background: #9FB03E;
+	padding: 50px;
 }
 /*ex section title*/
 #smEx h1{
 	font-size: 4em;
-	color: #9FB03E;
+	color: #FEFFFF;
 	padding: 7px;
 }
 /*default buttons*/
@@ -418,8 +420,11 @@ footer p{
 /*ex rows*/
 #smEx .row{
 	margin-top: 100px;
-	padding-bottom: 30px;
-	border-bottom: 3px solid #9FB03E;
+	padding: 30px;
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+	background: #FEFFFF;
 }
 /*paragraphs and headers in example section*/
 #smEx p, #smEx h3{
